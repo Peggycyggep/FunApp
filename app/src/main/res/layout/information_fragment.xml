@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/message_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Message Owner" />
+
+        <Button
+            android:id="@+id/quick_thumb_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thumb Up" />
+
+        <Button
+            android:id="@+id/add_favor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add to Favor" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/comment_add_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Comment" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>

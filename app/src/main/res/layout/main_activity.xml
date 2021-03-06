@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- the top frame to be at 90dp or fill out the screen -->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="200dp"
+        tools:context=".MainActivity" />
+
+    <!-- the bottom frame to be minimum 10% or fill out the screen -->
+    <FrameLayout
+        android:id="@+id/information_container"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="10dp" />
+</LinearLayout>
